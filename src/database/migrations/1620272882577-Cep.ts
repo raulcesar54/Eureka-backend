@@ -18,7 +18,32 @@ export class Cep1620272882577 implements MigrationInterface {
                             name: 'cep',
                             type: 'varchar',
                             isNullable: false
-                        }
+                        },
+                        {
+                            name: 'complemento',
+                            type: 'varchar',
+                            isNullable: false
+                        },
+                        {
+                            name: 'bairro',
+                            type: 'varchar',
+                            isNullable: false
+                        },
+                        {
+                            name: 'cidade',
+                            type: 'varchar',
+                            isNullable: false
+                        },
+                        {
+                            name: 'rua',
+                            type: 'varchar',
+                            isNullable: false
+                        },
+                        {
+                            name: 'uf',
+                            type: 'varchar',
+                            isNullable: false
+                        },
                     ]
                 }
             ))

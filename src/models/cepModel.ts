@@ -9,6 +9,21 @@ class Cep {
   @Column()
   cep: string
 
+  @Column()
+  cidade: string
+
+  @Column()
+  complemento: string
+
+  @Column()
+  bairro: string
+
+  @Column()
+  uf: string
+
+  @Column()
+  rua: string
+
 }
 
 export default Cep
